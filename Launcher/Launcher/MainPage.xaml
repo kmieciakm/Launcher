@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Launcher.MainPage">
+
+    <StackLayout BackgroundColor="White" Padding="20, 50">
+        <Label Text="Launcher" FontSize="Title" TextColor="Black"
+               VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
+               Margin="0, 0, 0, 50" /> 
+
+        <Button Text="Google" FontSize="Medium" TextColor="White" BackgroundColor="Black"
+                Clicked="GoogleBtnClicked"/>
+        <Button Text="Map" FontSize="Medium" TextColor="White" BackgroundColor="Black"
+                Clicked="MapBtnClicked"/>
+        <Button Text="Phone" FontSize="Medium" TextColor="White" BackgroundColor="Black"
+                Clicked="PhoneBtnClicked" Margin="0, 0, 0, 50"/>
+        
+        <Button Text="Greeting" FontSize="Medium" TextColor="White" BackgroundColor="DarkOrange"
+                Clicked="GreetingBtnClicked"/>
+        <Button Text="QECalculator" FontSize="Medium" TextColor="White" BackgroundColor="DarkOrange"
+                Clicked="QECalculatorBtnClicked"/>
+    </StackLayout>
+
+</ContentPage>
